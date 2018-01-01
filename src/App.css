@@ -1,0 +1,8 @@
+.modal{
+  transition: all 0.8s ease-in;
+  transform: translateY(-100%);
+}
+
+.modal.entered{
+   transform: translateY(0);
+}
